@@ -33,5 +33,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         name: Artifact Upload
         with:
-          name: install
+          name: binaries
           path: install/bin # or path/to/artifact
